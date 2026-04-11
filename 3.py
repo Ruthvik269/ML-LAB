@@ -30,9 +30,4 @@ def hill_climbing(start_x, step_size, max_iterations):
 
     return current_x, current_score
 
-
-# Run the algorithm
-# best_x, best_score = hill_climbing(start_x=random.uniform(-5, 5), step_size=0.1,
-# max_iterations=100)
-
 best_x, best_score = hill_climbing(start_x=0.1, step_size=0.05, max_iterations=5)
